@@ -73,9 +73,9 @@ You can download the repo and open `index.html` directly in your browser.
 
 ## 📣 About the Creator
 
-This tool is part of a larger automated product pipeline for digital sellers, built by **The Problem Solver**.
+This tool is part of a larger automated product, built by **The Problem Solver**.
 
-If you need:
+Provides:
 - Bulk image processing  
 - Watermarking  
 - Resizing  
@@ -85,7 +85,7 @@ If you need:
 
 Check out my services on Fiverr:
 
-👉 *YOUR FIVERR LINK HERE*
+👉 https://www.fiverr.com/theprblmsolver
 
 ---
 
