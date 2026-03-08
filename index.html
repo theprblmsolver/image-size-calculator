@@ -232,18 +232,18 @@
       margin-bottom: 10px;
     }
 
-   .upload-zone {
-    margin-top: 6px;
-    border-radius: 18px;
-    border: none;
-    outline: 1px dashed rgba(148, 163, 184, 0.6);
-    outline-offset: 0; /* ← this is the correct value */
-    background: radial-gradient(circle at top, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.98));
-    padding: 14px 14px 16px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.18s ease-out;
+   /* Put this on the element that contains the icon + text */
+.upload-zone {
+  display: block;               /* ensure it forms a full box */
+  width: fit-content;          /* shrink-wrap to content; or use 100% if you want full width */
+  box-sizing: border-box;      /* padding included in size */
+  padding: 14px 18px;          /* adjust so outline surrounds text */
+  border-radius: 18px;
+  border: none;
+  outline: 1px dashed rgba(148,163,184,0.6);
+  outline-offset: 0;
 }
+
 
 
 
