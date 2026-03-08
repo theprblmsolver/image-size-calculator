@@ -1489,6 +1489,42 @@
     widthInput.addEventListener("input", updatePrintSize);
     heightInput.addEventListener("input", updatePrintSize);
     dpiInput.addEventListener("input", updatePrintSize);
+    // --- SIMPLE / ADVANCED MODE TOGGLE -----------------------------------------
+const simpleModeBtn = document.getElementById("simpleModeBtn");
+const advancedModeBtn = document.getElementById("advancedModeBtn");
+
+// These are the fields we show/hide in Simple Mode
+const manualFields = [
+  document.getElementById("widthInput").closest(".field"),
+  document.getElementById("heightInput").closest(".field"),
+  document.getElementById("dpiInput").closest(".field"),
+  document.getElementById("formatInput").closest(".field"),
+  document.querySelector(".field-inline") // print size row
+];
+
+// Start in simple mode
+setSimpleMode();
+
+simpleModeBtn.addEventListener("click", () => {
+  simpleModeBtn.classList.add("active");
+  advancedModeBtn.classList.remove("active");
+  setSimpleMode();
+});
+
+advancedModeBtn.addEventListener("click", () => {
+  advancedModeBtn.classList.add("active");
+  simpleModeBtn.classList.remove("active");
+  setAdvancedMode();
+});
+
+function setSimpleMode() {
+  manualFields.forEach(el => el.style.display = "none");
+}
+
+function setAdvancedMode() {
+  manualFields.forEach(el => el.style.display = "block");
+}
+
 
     calculateBtn.addEventListener("click", () => {
       renderResults();
