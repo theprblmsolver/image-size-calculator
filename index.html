@@ -646,12 +646,13 @@
       font-size: 13px;
     }
 
-    /* Improve readability on warm cards */
+  /* Remove yellow/orange cards and make them dark like the others */
 .card.yellow,
 .card.orange {
-  --text-main: #111;
-  --text-soft: #333;
+  background: var(--bg-soft);
+  color: var(--text-main);
 }
+
 
   </style>
 </head>
