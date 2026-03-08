@@ -75,13 +75,13 @@ You can download the repo and open `index.html` directly in your browser.
 
 This tool is part of a larger automated product, built by **The Problem Solver**.
 
-Provides:
-- Bulk image processing  
+Provides Small, Medium and Bulk:
+- image processing  
 - Watermarking  
-- Resizing  
+- Image Resizing/Upscaling  
 - ZIP packaging  
-- WooCommerce CSV generation  
-- Etsy/Shopify product prep  
+- WooCommerce product prep & CSV generation  
+-   
 
 Check out my services on Fiverr:
 
