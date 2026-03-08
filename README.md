@@ -77,15 +77,14 @@ This tool is part of a larger automated product, built by **The Problem Solver**
 
 Provides Small, Medium and Bulk:
 - image processing  
-- Watermarking  
-- Image Resizing/Upscaling  
+- watermarking  
+- image resizing/upscaling  
 - ZIP packaging  
 - WooCommerce product prep & CSV generation  
--   
 
 Check out my services on Fiverr:
 
-👉 https://www.fiverr.com/theprblmsolver
+👉 **https://www.fiverr.com/theprblmsolver**
 
 ---
 
