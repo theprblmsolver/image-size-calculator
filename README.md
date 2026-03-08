@@ -6,11 +6,18 @@ This tool is designed for creators, designers, and digital sellers who need to q
 
 - Etsy
 - Shopify
+- Amazon
 - WooCommerce
-- Amazon Merch
-- POD platforms
-- Social media
-- Print‑ready exports
+- eBay
+- Instagram Post
+- Instagram Story
+- Facebook
+- Pinterest
+- Twitter / X
+- Redbubble
+- Printful
+- Merch by Amazon
+- Society6
 
 No installation. No ads. No tracking. Just a clean, instant calculator.
 
